@@ -49,9 +49,19 @@ body {
 .card .search button img {
   width: 25px;
 }
+.card .error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
 .card .weather-icon {
   width: 170px;
   margin-top: 30px;
+}
+.card .weather {
+  display: none;
 }
 .card .weather h1 {
   font-size: 80px;
